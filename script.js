@@ -71,9 +71,9 @@ document.onkeydown = (event) => {
   } else if (event.keyCode == 13) {
     equal(main_display.value);
   }
-    else{
+  else{
     return alert("Only numbers are allowed")
-    }
+  }
 };
 
 function display(code) {
